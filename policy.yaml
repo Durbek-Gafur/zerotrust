@@ -1,0 +1,37 @@
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: p3-p4
+spec:
+  podSelector:
+    matchLabels:
+      app: drone3
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: drone4
+  egress:
+    - to:
+        - podSelector:
+            matchLabels:
+              app: drone4
+---
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: p4-p3
+spec:
+  podSelector:
+    matchLabels:
+      app: drone4
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: drone3
+  egress:
+    - to:
+        - podSelector:
+            matchLabels:
+              app: drone3

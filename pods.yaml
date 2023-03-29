@@ -1,0 +1,81 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ground
+  labels:
+    app: ground
+    
+spec:
+  nodeName: ground
+  containers:
+  - name: busybox
+    image: nginxdemos/hello:plain-text
+    ports:
+      - containerPort: 8080
+    command:
+      - sleep
+      - "3600"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: drone1
+  labels:
+    app: drone1
+    mission: sense
+spec:
+  nodeName: drone1
+  containers:
+  - name: busybox
+    image: busybox
+    command:
+      - sleep
+      - "3600"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: drone2
+  labels:
+    app: drone2
+    mission: sense
+spec:
+  nodeName: drone2
+  containers:
+  - name: busybox
+    image: busybox
+    command:
+      - sleep
+      - "3600"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: drone3
+  labels:
+    app: drone3
+    mission: observe
+spec:
+  nodeName: drone3
+  containers:
+  - name: busybox
+    image: busybox
+    command:
+      - sleep
+      - "3600"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: drone4
+  labels:
+    app: drone4
+    mission: observe
+spec:
+  nodeName: drone4
+  containers:
+  - name: busybox
+    image: busybox
+    command:
+      - sleep
+      - "3600"
