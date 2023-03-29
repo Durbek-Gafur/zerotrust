@@ -1,0 +1,174 @@
+    1  kubectl get pods 
+    2  kubectl get pods -o wide
+    3  kubectl get nodes -all
+    4  kubectl get nodes 
+    5  kubectl get nodes --all
+    6  kubectl get nodes --all-namespace
+    7  kubectl get nodes --a
+    8  ls
+    9  nano pol-allow.yaml
+   10  kubectl apply -f pol-allow.yaml 
+   11  nano pol-allow.yaml
+   12  kubectl delete networkpolicy --all
+   13  kubectl apply -f pol-allow.yaml 
+   14  kubectl get pods -o wide
+   15  kubectl get pods --all-namespaces
+   16  kubectl get pods --all-namespaces | grep calico-node
+   17  kubectl logs calico-node-5sbxc
+   18  kubectl logs calico-node-5sbxc -n calico-system
+   19  kubectl logs calico-node-5sbxc -n calico-system | grep 'Unexpected connect from'
+   20  kubectl get pods --all-namespaces | grep calico-node
+   21  kubectl logs calico-node-2mppr -n calico-system | grep 'Unexpected connect from'
+   22  kubectl logs calico-node-2mppr -n calico-system 
+   23  kubectl get nodes -o wide
+   24  kubectl get  pods -o wide
+   25  kubectl apply pods.yaml 
+   26  kubectl apply -f pods.yaml 
+   27  kubectl get  pods -o wide
+   28  kubectl exec -it <busybox-pod-drone3> -- ping <busybox-pod-drone4>
+   29  kubectl exec -it drone3 -- ping drone4
+   30  kubectl exec -it drone3 -- ping drone1
+   31  kubectl exec -it drone1 -- ping drone3
+   32  kubectl get networkpolicy
+   33  ls
+   34  rm pol-allow.yaml 
+   35  ls
+   36  nano deny-all.yaml
+   37  kubectl apply -f deny-all.yaml 
+   38  kubectl exec -it drone1 -- ping drone2
+   39  kubectl exec -it drone1 -- ping drone3
+   40  kubectl exec -it drone4 -- ping drone3
+   41  kubectl delete networkpolicy default-deny
+   42  kubectl exec -it drone4 -- ping drone3
+   43  kubectl get networkpolicy 
+   44  kubectl get namespaces
+   45  nano deny-all.yaml 
+   46  kubectl exec -it drone4 -- ping drone3
+   47  kubectl apply -f deny-all.yaml 
+   48  kubectl exec -it drone4 -- ping drone3
+   49  kubectl get pods -o wide
+   50  kubectl exec -it drone4 -- ping 10.42.3.3
+   51  kubectl exec -it drone4 -- ping 10.42.1.3
+   52  kubectl exec -it drone4 -- ping 10.42.4.3
+   53  kubectl get pods -o wide
+   54  kubectl exec -it drone3 -- ping 10.42.4.3
+   55  kubectl exec -it drone3 -- ping 10.42.3.3
+   56  kubectl exec -it drone4 -- ping 10.42.2.3
+   57  ls
+   58  kubectl policy.yaml 
+   59  kubectl apply -f policy.yaml 
+   60  kubectl exec -it drone4 -- ping 10.42.2.3
+   61  kubectl get networkpolicy 
+   62  kubectl delete networkpolicy --all
+   63  kubectl apply -f deny-all.yaml 
+   64  ls
+   65  kubectl apply -f policy.yaml 
+   66  kubectl get pods -o wide
+   67  kubectl exec -it drone4 -- ping 10.42.2.3
+   68  ls
+   69  less pods.yaml 
+   70  less policy.yaml 
+   71  kubectl delete networkpolicy --all
+   72  kubectl apply -f policy.yaml 
+   73  kubectl exec -it drone4 -- ping 10.42.2.3
+   74  kubectl exec -it drone4 -- ping drone3
+   75  kubectl exec -it drone1 -- ping drone3
+   76  kubectl get pods -o wide
+   77  kubectl exec -it drone1 -- ping 10.42.2.3
+   78  kubectl exec -it drone1 -- ping ground
+   79  kubectl exec -it drone1 -- ping drone4
+   80  nano policy.yaml 
+   81  kubectl apply -f policy.yaml 
+   82  kubectl exec -it drone1 -- ping drone4
+   83  kubectl exec -it drone4 -- ping drone1
+   84  kubectl get pods 
+   85  kubectl get pods -o wide
+   86  kubectl exec -it drone4 -- ping 10.42.3.3
+   87  kubectl exec -it drone4 -- ping 10.42.1.3
+   88  nano pods.yaml 
+   89  kubectl apply -f pods.yaml 
+   90  kubectl get pods
+   91  kubectl get pods -o wide
+   92  curl 10.42.1.3
+   93  curl 10.42.1.3:80
+   94  nano pods.yaml 
+   95  curl 10.42.4.3
+   96  kubectl exec -it drone4 -- curl ground
+   97  kubectl exec -it drone4 -- wget ground
+   98  ping 10.42.1.3
+   99  kubectl get pods -o wide
+  100  curl 10.42.4.3
+  101  ping 10.42.4.3
+  102  curl 10.42.4.3:80
+  103  curl 10.42.4.3:8000
+  104  kubectl get pods -o jsonpath='{.items[*].status.podIP}'
+  105  ls
+  106  nano pods.yaml 
+  107  kubectl apply -f pods.yaml 
+  108  kubectl delete pods ground
+  109  kubectl apply -f pods.yaml 
+  110  kubectl get pods
+  111  kubectl apply -f pods.yaml 
+  112  kubectl get pods -o wide
+  113  kubectl exec drone3 -- nc -zv -w 3 10.42.4.4 8080
+  114  kubectl exec -it drone3 -- ping -c 3 10.42.3.3
+  115  ls
+  116  less policy.yaml 
+  117  rm policy.yaml 
+  118  nano policy.yaml 
+  119  kubectl delete networkpolicy --all
+  120  kubectl apply -f policy.yaml 
+  121  kubectl exec -it drone3 -- ping drone4
+  122  kubectl get pods -o wide
+  123  kubectl exec -it drone3 -- ping 10.42.3.3
+  124  kubectl exec -it drone3 -- ping 10.42.1.3
+  125  kubectl exec -it drone3 -- ping 10.42.4.4
+  126  kubectl exec -it drone3 -- ping 10.42.3.3
+  127  nano policy.yaml 
+  128  nano pods.yaml 
+  129  kubectl delete networkpolicy --all
+  130  ls
+  131  cp policy.yaml policy-observe-sense.yaml
+  132  nano policy-observe-sense.yaml 
+  133  kubectl apply -f policy-observe-sense.yaml 
+  134  kubectl get pods -o wide
+  135  less policy-observe-sense.yaml 
+  136  kubectl delete networkpolicy --all
+  137  less policy.yaml 
+  138  nano pods.yaml 
+  139  kubectl apply -f pods.yaml 
+  140  less pods.yaml 
+  141  nano policy
+  142  nano policy.yaml 
+  143  kubectl apply -f pods.yaml 
+  144  kubectl apply -f policy.yaml 
+  145  kubectl get pods -o wide
+  146  cp policy.yaml policy-extended.yaml
+  147  nano policy-extended.yaml 
+  148  kubectl apply -f policy-extended.yaml 
+  149  kubectl delete networkpolicy -all
+  150  kubectl delete networkpolicy --all
+  151  nano policy-extended.yaml 
+  152  kubectl apply -f policy-extended.yaml 
+  153  kubectl get pods -o wide
+  154  nano policy-extended.yaml 
+  155  kubectl apply -f policy-extended.yaml 
+  156  ls
+  157  rm deny-all.yaml 
+  158  rm policy-observe-sense.yaml 
+  159  ls
+  160  git clone
+  161  git clone https://github.com/Durbek-Gafur/zerotrust.git
+  162  ls
+  163  mv po* zerotrust/
+  164  ls
+  165  cd zerotrust/
+  166  ls
+  167  git add .
+  168  git commit -m "uploading yaml files"
+  169  git git config --global --edit
+  170  git config --global --edit
+  171  git commit -m "uploading yaml files"
+  172  git push
+  173  kubectl get pods -o wide
+  174  history > history.txt

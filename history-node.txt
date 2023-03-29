@@ -1,0 +1,8 @@
+  1  export K3S_NODE_NAME=drone1 && export K3S_URL="https://172.31.7.156:6443" && export K3S_TOKEN=K10a69758519bf75f6bdfbcd395f5a4fd52e28234b7059597ceaed6a4e41ba2fe8f::server:70ca06bd774f85c1334082746809e60f && curl -sfL "https://get.k3s.io" | sh -s -
+    2  ping 172.31.7.156
+    3  curl -vks https://172.31.7.156:6443/ping
+    4  /usr/local/bin/k3s-killall.sh
+    5  /usr/local/bin/k3s-agent-uninstall.sh
+    6  export K3S_NODE_NAME=drone1 && export K3S_URL="https://172.31.7.156:6443" && export K3S_TOKEN=K1059b44a9cc87a1c1fa12899a8168b7439f3dbdd2bf1e72d7c3ca8cb4717d51a09::server:400ae41730dc4994bb0bd6e7b4991aed && curl -sfL "https://get.k3s.io" | sh -s -
+    7  kubectl delete networkpolicy --all
+    8  history
