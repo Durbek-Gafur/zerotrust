@@ -73,3 +73,29 @@ spec:
         - podSelector:
             matchLabels:
               app: ground
+
+---
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: p2-p1-ground
+spec:
+  podSelector:
+    matchLabels:
+      app: drone2
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: drone1
+        - podSelector:
+            matchLabels:
+              app: ground
+  egress:
+    - to:
+        - podSelector:
+            matchLabels:
+              app: drone1
+        - podSelector:
+            matchLabels:
+              app: ground
