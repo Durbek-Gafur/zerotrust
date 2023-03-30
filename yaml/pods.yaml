@@ -9,7 +9,7 @@ spec:
   nodeName: ground
   containers:
   - name: busybox
-    image: nginxdemos/hello:plain-text
+    image: 39dj29dl2d9l2/vcc:latest
     ports:
       - containerPort: 8080
     command:
@@ -27,7 +27,7 @@ spec:
   nodeName: drone1
   containers:
   - name: busybox
-    image: busybox
+    image: 39dj29dl2d9l2/vcc:latest
     command:
       - sleep
       - "3600"
