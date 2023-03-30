@@ -5,7 +5,7 @@ IFACE="eth0"  # Replace this with the appropriate network interface on the groun
 DURATION=100  # Duration in seconds for each test
 
 # Remove any existing .pcap files from the ground pod before starting the experiment
-kubectl exec -it ground -- sudo rm -f *.pcap
+kubectl exec -it ground --  rm -f *.pcap
 
 for i in {1..10}; do
     echo "Running experiment $i"
@@ -31,4 +31,4 @@ for i in {1..10}; do
 done
 
 # Remove all .pcap files from the ground pod after downloading them to the local machine
-kubectl exec -it ground -- sudo rm -f *.pcap
+kubectl exec -it ground --  rm -f *.pcap
