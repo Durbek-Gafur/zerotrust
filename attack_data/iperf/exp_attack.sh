@@ -25,7 +25,7 @@ for i in {1..10}; do
   cat temp_ground >> $1
 
   # Sleep for 5 seconds between experiments
-  sleep 5
+  sleep 60
 done
 
 # Remove temporary files
