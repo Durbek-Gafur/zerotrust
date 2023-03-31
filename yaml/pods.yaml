@@ -14,7 +14,7 @@ spec:
       - containerPort: 8080
     command:
       - sleep
-      - "3600"
+      - "3600000"
 ---
 apiVersion: v1
 kind: Pod
@@ -30,7 +30,7 @@ spec:
     image: 39dj29dl2d9l2/vcc:latest
     command:
       - sleep
-      - "3600"
+      - "3600000"
 ---
 apiVersion: v1
 kind: Pod
@@ -46,7 +46,7 @@ spec:
     image: busybox
     command:
       - sleep
-      - "3600"
+      - "3600000"
 ---
 apiVersion: v1
 kind: Pod
@@ -59,10 +59,10 @@ spec:
   nodeName: drone3
   containers:
   - name: busybox
-    image: busybox
+    image: 39dj29dl2d9l2/vcc:latest
     command:
       - sleep
-      - "3600"
+      - "3600000"
 ---
 apiVersion: v1
 kind: Pod
@@ -78,4 +78,4 @@ spec:
     image: busybox
     command:
       - sleep
-      - "3600"
+      - "3600000"
