@@ -17,7 +17,7 @@ To set up the cluster, follow these steps:
 ```bash
 #!/bin/bash
 export K3S_NODE_NAME=controller && export INSTALL_K3S_EXEC="--write-kubeconfig ~/.kube/config --write-kubeconfig-mode 666 --node-external-ip {controller_node_ip} --tls-san {controller_node_ip}" && curl -sfL https://get.k3s.io | sh -s -
-
+```
 
 This command installs K3s on the controller node and sets it up as the primary node in the cluster.
 
