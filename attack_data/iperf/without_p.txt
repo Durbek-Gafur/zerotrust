@@ -1,0 +1,22 @@
+Test results:
+Test 1
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.1.4, port 5201
+[  5] local 10.42.4.5 port 35574 connected to 10.42.1.4 port 5201
+iperf3: error - control socket has closed unexpectedly
+command terminated with exit code 1
+Test 2
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.1.4, port 5201
+[  5] local 10.42.4.5 port 35586 connected to 10.42.1.4 port 5201
+iperf3: error - control socket has closed unexpectedly
+command terminated with exit code 1
+Test 3
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+iperf3: error - control socket has closed unexpectedly
+Connecting to host 10.42.1.4, port 5201
+[  5] local 10.42.4.5 port 40794 connected to 10.42.1.4 port 5201
+command terminated with exit code 1

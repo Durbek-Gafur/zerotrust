@@ -1,0 +1,221 @@
+Test results:
+Test 1
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 53934 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   119 MBytes  1.00 Gbits/sec   11    504 KBytes       
+[  5]   1.00-2.00   sec  97.1 MBytes   815 Mbits/sec   30    513 KBytes       
+[  5]   2.00-3.00   sec  96.1 MBytes   804 Mbits/sec   33    539 KBytes       
+[  5]   3.00-4.00   sec  95.0 MBytes   798 Mbits/sec   30    617 KBytes       
+[  5]   4.00-5.00   sec   101 MBytes   851 Mbits/sec   40    417 KBytes       
+[  5]   5.00-6.00   sec  96.3 MBytes   808 Mbits/sec   10    634 KBytes       
+[  5]   6.00-7.00   sec  97.9 MBytes   820 Mbits/sec   44    521 KBytes       
+[  5]   7.00-8.00   sec  93.1 MBytes   782 Mbits/sec   16    687 KBytes       
+[  5]   8.00-9.00   sec  96.2 MBytes   807 Mbits/sec   26    565 KBytes       
+[  5]   9.00-10.00  sec  99.6 MBytes   835 Mbits/sec   15    826 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   992 MBytes   832 Mbits/sec  255             sender
+[  5]   0.00-10.04  sec   990 MBytes   827 Mbits/sec                  receiver
+
+iperf Done.
+Test 2
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 42942 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   101 MBytes   845 Mbits/sec   30    478 KBytes       
+[  5]   1.00-2.00   sec   104 MBytes   874 Mbits/sec   34    547 KBytes       
+[  5]   2.00-3.00   sec   103 MBytes   867 Mbits/sec   40    504 KBytes       
+[  5]   3.00-4.00   sec  92.0 MBytes   772 Mbits/sec    5    730 KBytes       
+[  5]   4.00-5.00   sec  97.4 MBytes   817 Mbits/sec   29    860 KBytes       
+[  5]   5.00-6.00   sec  96.2 MBytes   806 Mbits/sec   23    478 KBytes       
+[  5]   6.00-7.00   sec  98.8 MBytes   828 Mbits/sec   31    435 KBytes       
+[  5]   7.00-8.00   sec  98.8 MBytes   829 Mbits/sec   16    530 KBytes       
+[  5]   8.00-9.00   sec  96.2 MBytes   805 Mbits/sec   13    730 KBytes       
+[  5]   9.00-10.00  sec  97.5 MBytes   820 Mbits/sec   38    817 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   985 MBytes   826 Mbits/sec  259             sender
+[  5]   0.00-10.05  sec   983 MBytes   820 Mbits/sec                  receiver
+
+iperf Done.
+Test 3
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 60310 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  99.4 MBytes   831 Mbits/sec   10    895 KBytes       
+[  5]   1.00-2.00   sec  98.7 MBytes   830 Mbits/sec   23    600 KBytes       
+[  5]   2.00-3.00   sec  93.7 MBytes   786 Mbits/sec   17    721 KBytes       
+[  5]   3.00-4.00   sec  98.8 MBytes   826 Mbits/sec   44    530 KBytes       
+[  5]   4.00-5.00   sec  93.7 MBytes   789 Mbits/sec    4    999 KBytes       
+[  5]   5.00-6.00   sec  95.0 MBytes   797 Mbits/sec   39    713 KBytes       
+[  5]   6.00-7.00   sec   102 MBytes   859 Mbits/sec   23    652 KBytes       
+[  5]   7.00-8.00   sec  97.5 MBytes   819 Mbits/sec   44    539 KBytes       
+[  5]   8.00-9.00   sec  95.0 MBytes   797 Mbits/sec   17    678 KBytes       
+[  5]   9.00-10.00  sec  92.5 MBytes   776 Mbits/sec   41    600 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   967 MBytes   811 Mbits/sec  262             sender
+[  5]   0.00-10.04  sec   965 MBytes   806 Mbits/sec                  receiver
+
+iperf Done.
+Test 4
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 48932 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  97.1 MBytes   815 Mbits/sec   37    426 KBytes       
+[  5]   1.00-2.00   sec  94.7 MBytes   794 Mbits/sec   22    600 KBytes       
+[  5]   2.00-3.00   sec  93.2 MBytes   782 Mbits/sec   53    382 KBytes       
+[  5]   3.00-4.00   sec  98.3 MBytes   824 Mbits/sec   16    652 KBytes       
+[  5]   4.00-5.00   sec   103 MBytes   864 Mbits/sec   34    739 KBytes       
+[  5]   5.00-6.00   sec  92.5 MBytes   776 Mbits/sec   48    582 KBytes       
+[  5]   6.00-7.00   sec   100 MBytes   840 Mbits/sec   55    617 KBytes       
+[  5]   7.00-8.00   sec   101 MBytes   851 Mbits/sec   31    608 KBytes       
+[  5]   8.00-9.00   sec  99.3 MBytes   832 Mbits/sec   48    408 KBytes       
+[  5]   9.00-10.00  sec  96.3 MBytes   808 Mbits/sec   44    417 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   976 MBytes   819 Mbits/sec  388             sender
+[  5]   0.00-10.05  sec   974 MBytes   813 Mbits/sec                  receiver
+
+iperf Done.
+Test 5
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 49558 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  93.7 MBytes   786 Mbits/sec   11    504 KBytes       
+[  5]   1.00-2.00   sec   101 MBytes   845 Mbits/sec    0   1.07 MBytes       
+[  5]   2.00-3.00   sec  90.0 MBytes   755 Mbits/sec   21    495 KBytes       
+[  5]   3.00-4.00   sec  93.8 MBytes   786 Mbits/sec   12    730 KBytes       
+[  5]   4.00-5.00   sec   100 MBytes   838 Mbits/sec    0   1.19 MBytes       
+[  5]   5.00-6.00   sec  95.0 MBytes   797 Mbits/sec   45    713 KBytes       
+[  5]   6.00-7.00   sec   100 MBytes   835 Mbits/sec   38    461 KBytes       
+[  5]   7.00-8.00   sec  96.2 MBytes   811 Mbits/sec   30    574 KBytes       
+[  5]   8.00-9.00   sec  91.2 MBytes   765 Mbits/sec   19    565 KBytes       
+[  5]   9.00-10.00  sec  93.8 MBytes   786 Mbits/sec    7    452 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   954 MBytes   801 Mbits/sec  183             sender
+[  5]   0.00-10.04  sec   952 MBytes   795 Mbits/sec                  receiver
+
+iperf Done.
+Test 6
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 51996 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  94.3 MBytes   791 Mbits/sec   19    452 KBytes       
+[  5]   1.00-2.00   sec  96.3 MBytes   808 Mbits/sec   44    756 KBytes       
+[  5]   2.00-3.00   sec  94.9 MBytes   796 Mbits/sec   23    478 KBytes       
+[  5]   3.00-4.00   sec  98.7 MBytes   828 Mbits/sec   18    608 KBytes       
+[  5]   4.00-5.00   sec  84.9 MBytes   712 Mbits/sec   25    730 KBytes       
+[  5]   5.00-6.00   sec  93.7 MBytes   786 Mbits/sec   26    469 KBytes       
+[  5]   6.00-7.00   sec  93.7 MBytes   786 Mbits/sec    8    843 KBytes       
+[  5]   7.00-8.00   sec  99.9 MBytes   838 Mbits/sec   42    504 KBytes       
+[  5]   8.00-9.00   sec  85.0 MBytes   713 Mbits/sec   11    574 KBytes       
+[  5]   9.00-10.00  sec  93.8 MBytes   786 Mbits/sec   38    765 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   935 MBytes   784 Mbits/sec  254             sender
+[  5]   0.00-10.05  sec   933 MBytes   779 Mbits/sec                  receiver
+
+iperf Done.
+Test 7
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 54274 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   113 MBytes   951 Mbits/sec   10    478 KBytes       
+[  5]   1.00-2.00   sec   112 MBytes   940 Mbits/sec    7    582 KBytes       
+[  5]   2.00-3.00   sec   114 MBytes   953 Mbits/sec   11    495 KBytes       
+[  5]   3.00-4.00   sec   113 MBytes   948 Mbits/sec    6    600 KBytes       
+[  5]   4.00-5.00   sec   113 MBytes   947 Mbits/sec    9    487 KBytes       
+[  5]   5.00-6.00   sec   111 MBytes   932 Mbits/sec   12    582 KBytes       
+[  5]   6.00-7.00   sec   112 MBytes   940 Mbits/sec    8    469 KBytes       
+[  5]   7.00-8.00   sec   110 MBytes   926 Mbits/sec   10    504 KBytes       
+[  5]   8.00-9.00   sec   110 MBytes   923 Mbits/sec   11    565 KBytes       
+[  5]   9.00-10.00  sec   111 MBytes   930 Mbits/sec    9    617 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  1.09 GBytes   939 Mbits/sec   93             sender
+[  5]   0.00-10.05  sec  1.09 GBytes   934 Mbits/sec                  receiver
+
+iperf Done.
+Test 8
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 56004 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   113 MBytes   947 Mbits/sec   11    574 KBytes       
+[  5]   1.00-2.00   sec   111 MBytes   930 Mbits/sec   10    461 KBytes       
+[  5]   2.00-3.00   sec   111 MBytes   930 Mbits/sec    7    539 KBytes       
+[  5]   3.00-4.00   sec   111 MBytes   934 Mbits/sec    6    556 KBytes       
+[  5]   4.00-5.00   sec   109 MBytes   913 Mbits/sec    7    582 KBytes       
+[  5]   5.00-6.00   sec   109 MBytes   916 Mbits/sec    9    469 KBytes       
+[  5]   6.00-7.00   sec   108 MBytes   906 Mbits/sec    6    547 KBytes       
+[  5]   7.00-8.00   sec   108 MBytes   907 Mbits/sec    5    556 KBytes       
+[  5]   8.00-9.00   sec   107 MBytes   900 Mbits/sec    8    626 KBytes       
+[  5]   9.00-10.00  sec   108 MBytes   906 Mbits/sec    9    565 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  1.07 GBytes   919 Mbits/sec   78             sender
+[  5]   0.00-10.04  sec  1.07 GBytes   913 Mbits/sec                  receiver
+
+iperf Done.
+Test 9
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 41002 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   112 MBytes   938 Mbits/sec    8    643 KBytes       
+[  5]   1.00-2.00   sec   111 MBytes   927 Mbits/sec    8    530 KBytes       
+[  5]   2.00-3.00   sec   109 MBytes   913 Mbits/sec    7    565 KBytes       
+[  5]   3.00-4.00   sec   110 MBytes   926 Mbits/sec   11    539 KBytes       
+[  5]   4.00-5.00   sec   110 MBytes   920 Mbits/sec    8    574 KBytes       
+[  5]   5.00-6.00   sec   108 MBytes   908 Mbits/sec    8    408 KBytes       
+[  5]   6.00-7.00   sec   109 MBytes   917 Mbits/sec    5    504 KBytes       
+[  5]   7.00-8.00   sec   107 MBytes   894 Mbits/sec    6    565 KBytes       
+[  5]   8.00-9.00   sec   109 MBytes   916 Mbits/sec    8    608 KBytes       
+[  5]   9.00-10.00  sec   108 MBytes   906 Mbits/sec    9    495 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  1.07 GBytes   917 Mbits/sec   78             sender
+[  5]   0.00-10.04  sec  1.07 GBytes   911 Mbits/sec                  receiver
+
+iperf Done.
+Test 10
+Drone1 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 50774 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   110 MBytes   924 Mbits/sec   10    634 KBytes       
+[  5]   1.00-2.00   sec   109 MBytes   915 Mbits/sec   13    478 KBytes       
+[  5]   2.00-3.00   sec   108 MBytes   907 Mbits/sec   10    530 KBytes       
+[  5]   3.00-4.00   sec   107 MBytes   896 Mbits/sec    7    565 KBytes       
+[  5]   4.00-5.00   sec   106 MBytes   890 Mbits/sec    8    600 KBytes       
+[  5]   5.00-6.00   sec   106 MBytes   887 Mbits/sec   11    487 KBytes       
+[  5]   6.00-7.00   sec   108 MBytes   903 Mbits/sec    8    504 KBytes       
+[  5]   7.00-8.00   sec   106 MBytes   893 Mbits/sec    6    565 KBytes       
+[  5]   8.00-9.00   sec   107 MBytes   898 Mbits/sec    8    600 KBytes       
+[  5]   9.00-10.00  sec   107 MBytes   899 Mbits/sec   13    452 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  1.05 GBytes   901 Mbits/sec   94             sender
+[  5]   0.00-10.04  sec  1.05 GBytes   896 Mbits/sec                  receiver
+
+iperf Done.

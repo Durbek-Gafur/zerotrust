@@ -1,0 +1,3 @@
+Unable to use a TTY - input is not a terminal or the right kind of file
+iperf3: error - unable to connect to server: Connection refused
+command terminated with exit code 1

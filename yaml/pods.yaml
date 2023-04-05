@@ -43,7 +43,7 @@ spec:
   nodeName: drone2
   containers:
   - name: busybox
-    image: busybox
+    image: 39dj29dl2d9l2/vcc:latest
     command:
       - sleep
       - "3600000"
@@ -75,7 +75,7 @@ spec:
   nodeName: drone4
   containers:
   - name: busybox
-    image: busybox
+    image: 39dj29dl2d9l2/vcc:latest
     command:
       - sleep
       - "3600000"
