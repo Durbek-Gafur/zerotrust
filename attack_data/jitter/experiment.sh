@@ -32,7 +32,7 @@ for opt in "${HPING_OPTIONS[@]}"; do
         sleep 10
         
         # Start hping3 on drone3 to send packets to drone1
-        kubectl exec  drone3 -- hping3 "$(kubectl get pod drone1 -o jsonpath='{.status.podIP}')" -p $HPING_PORT "--$opt" &>/dev/null &
+        kubectl exec  drone3 -- hping3 "$(kubectl get pod drone1 -o jsonpath='{.status.podIP}')" --udp -p $HPING_PORT "--$opt" &>/dev/null &
         pid_hping3=$!
 
         # Wait for the specified duration before stopping the tcpdump process
