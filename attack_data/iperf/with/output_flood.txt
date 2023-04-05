@@ -1,0 +1,210 @@
+Test 1
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 50092 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  88.3 MBytes   741 Mbits/sec   10    626 KBytes       
+[  5]   1.00-2.00   sec  86.3 MBytes   724 Mbits/sec    9    478 KBytes       
+[  5]   2.00-3.00   sec  85.5 MBytes   717 Mbits/sec    7    539 KBytes       
+[  5]   3.00-4.00   sec  84.8 MBytes   711 Mbits/sec    4    591 KBytes       
+[  5]   4.00-5.00   sec  84.9 MBytes   712 Mbits/sec    5    574 KBytes       
+[  5]   5.00-6.00   sec  83.9 MBytes   704 Mbits/sec    5    643 KBytes       
+[  5]   6.00-7.00   sec  83.7 MBytes   702 Mbits/sec    6    626 KBytes       
+[  5]   7.00-8.00   sec  83.4 MBytes   700 Mbits/sec    4    660 KBytes       
+[  5]   8.00-9.00   sec  82.3 MBytes   691 Mbits/sec    6    617 KBytes       
+[  5]   9.00-10.00  sec  81.9 MBytes   687 Mbits/sec    6    469 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   845 MBytes   709 Mbits/sec   62             sender
+[  5]   0.00-10.04  sec   843 MBytes   704 Mbits/sec                  receiver
+
+iperf Done.
+Test 2
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 56732 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  85.6 MBytes   718 Mbits/sec    6    452 KBytes       
+[  5]   1.00-2.00   sec  83.5 MBytes   701 Mbits/sec    4    530 KBytes       
+[  5]   2.00-3.00   sec  83.8 MBytes   703 Mbits/sec    4    435 KBytes       
+[  5]   3.00-4.00   sec  83.2 MBytes   698 Mbits/sec    3    408 KBytes       
+[  5]   4.00-5.00   sec  82.2 MBytes   690 Mbits/sec    3    539 KBytes       
+[  5]   5.00-6.00   sec  82.2 MBytes   689 Mbits/sec    4    600 KBytes       
+[  5]   6.00-7.00   sec  81.4 MBytes   683 Mbits/sec    3    574 KBytes       
+[  5]   7.00-8.00   sec  81.3 MBytes   682 Mbits/sec    4    582 KBytes       
+[  5]   8.00-9.00   sec  80.3 MBytes   673 Mbits/sec    5    565 KBytes       
+[  5]   9.00-10.00  sec  80.1 MBytes   672 Mbits/sec    4    478 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   824 MBytes   691 Mbits/sec   40             sender
+[  5]   0.00-10.04  sec   821 MBytes   686 Mbits/sec                  receiver
+
+iperf Done.
+Test 3
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 42112 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  84.1 MBytes   705 Mbits/sec    9    643 KBytes       
+[  5]   1.00-2.00   sec  81.7 MBytes   685 Mbits/sec    4    678 KBytes       
+[  5]   2.00-3.00   sec  81.0 MBytes   679 Mbits/sec    5    469 KBytes       
+[  5]   3.00-4.00   sec  80.0 MBytes   671 Mbits/sec    4    513 KBytes       
+[  5]   4.00-5.00   sec  80.1 MBytes   672 Mbits/sec    3    626 KBytes       
+[  5]   5.00-6.00   sec  80.1 MBytes   672 Mbits/sec    3    765 KBytes       
+[  5]   6.00-7.00   sec  78.8 MBytes   661 Mbits/sec    7    539 KBytes       
+[  5]   7.00-8.00   sec  78.4 MBytes   658 Mbits/sec    4    547 KBytes       
+[  5]   8.00-9.00   sec  78.6 MBytes   659 Mbits/sec    4    408 KBytes       
+[  5]   9.00-10.00  sec  77.3 MBytes   649 Mbits/sec    3    669 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   800 MBytes   671 Mbits/sec   46             sender
+[  5]   0.00-10.04  sec   798 MBytes   666 Mbits/sec                  receiver
+
+iperf Done.
+Test 4
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 48120 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  82.2 MBytes   689 Mbits/sec    7    591 KBytes       
+[  5]   1.00-2.00   sec  79.2 MBytes   664 Mbits/sec    7    591 KBytes       
+[  5]   2.00-3.00   sec  78.7 MBytes   660 Mbits/sec    6    739 KBytes       
+[  5]   3.00-4.00   sec  78.4 MBytes   657 Mbits/sec    5    521 KBytes       
+[  5]   4.00-5.00   sec  77.9 MBytes   654 Mbits/sec    6    582 KBytes       
+[  5]   5.00-6.00   sec  76.9 MBytes   645 Mbits/sec   13    487 KBytes       
+[  5]   6.00-7.00   sec  76.1 MBytes   638 Mbits/sec    5    504 KBytes       
+[  5]   7.00-8.00   sec  76.3 MBytes   640 Mbits/sec    4    695 KBytes       
+[  5]   8.00-9.00   sec  75.7 MBytes   635 Mbits/sec    5    626 KBytes       
+[  5]   9.00-10.00  sec  74.4 MBytes   624 Mbits/sec    5    626 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   776 MBytes   651 Mbits/sec   63             sender
+[  5]   0.00-10.04  sec   774 MBytes   646 Mbits/sec                  receiver
+
+iperf Done.
+Test 5
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 42366 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  79.7 MBytes   668 Mbits/sec    8    695 KBytes       
+[  5]   1.00-2.00   sec  76.8 MBytes   644 Mbits/sec    7    469 KBytes       
+[  5]   2.00-3.00   sec  76.8 MBytes   644 Mbits/sec    3    678 KBytes       
+[  5]   3.00-4.00   sec  75.2 MBytes   631 Mbits/sec    5    461 KBytes       
+[  5]   4.00-5.00   sec  75.5 MBytes   633 Mbits/sec    3    574 KBytes       
+[  5]   5.00-6.00   sec  74.7 MBytes   627 Mbits/sec    2    660 KBytes       
+[  5]   6.00-7.00   sec  74.0 MBytes   620 Mbits/sec    3    626 KBytes       
+[  5]   7.00-8.00   sec  73.7 MBytes   618 Mbits/sec    5    539 KBytes       
+[  5]   8.00-9.00   sec  73.3 MBytes   615 Mbits/sec    7    556 KBytes       
+[  5]   9.00-10.00  sec  72.1 MBytes   605 Mbits/sec    3    513 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   752 MBytes   631 Mbits/sec   46             sender
+[  5]   0.00-10.05  sec   749 MBytes   626 Mbits/sec                  receiver
+
+iperf Done.
+Test 6
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 47194 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  77.4 MBytes   649 Mbits/sec    7    565 KBytes       
+[  5]   1.00-2.00   sec  74.4 MBytes   624 Mbits/sec    2    687 KBytes       
+[  5]   2.00-3.00   sec  73.8 MBytes   619 Mbits/sec    3    713 KBytes       
+[  5]   3.00-4.00   sec  73.4 MBytes   615 Mbits/sec    2    687 KBytes       
+[  5]   4.00-5.00   sec  73.1 MBytes   613 Mbits/sec    2    660 KBytes       
+[  5]   5.00-6.00   sec  72.9 MBytes   611 Mbits/sec    2    591 KBytes       
+[  5]   6.00-7.00   sec  70.3 MBytes   590 Mbits/sec    6    408 KBytes       
+[  5]   7.00-8.00   sec  71.2 MBytes   598 Mbits/sec    3    539 KBytes       
+[  5]   8.00-9.00   sec  70.5 MBytes   592 Mbits/sec    3    791 KBytes       
+[  5]   9.00-10.00  sec  69.0 MBytes   579 Mbits/sec    2    721 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   726 MBytes   609 Mbits/sec   32             sender
+[  5]   0.00-10.05  sec   724 MBytes   604 Mbits/sec                  receiver
+
+iperf Done.
+Test 7
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 43596 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  74.0 MBytes   621 Mbits/sec    6    591 KBytes       
+[  5]   1.00-2.00   sec  72.5 MBytes   609 Mbits/sec    4    487 KBytes       
+[  5]   2.00-3.00   sec  71.1 MBytes   596 Mbits/sec    1    747 KBytes       
+[  5]   3.00-4.00   sec  71.3 MBytes   599 Mbits/sec    2    695 KBytes       
+[  5]   4.00-5.00   sec  70.2 MBytes   589 Mbits/sec    2    826 KBytes       
+[  5]   5.00-6.00   sec  70.0 MBytes   587 Mbits/sec    3    860 KBytes       
+[  5]   6.00-7.00   sec  68.8 MBytes   577 Mbits/sec    2    878 KBytes       
+[  5]   7.00-8.00   sec  67.5 MBytes   566 Mbits/sec    2    826 KBytes       
+[  5]   8.00-9.00   sec  67.5 MBytes   566 Mbits/sec    2    669 KBytes       
+[  5]   9.00-10.00  sec  66.2 MBytes   556 Mbits/sec    1    773 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   699 MBytes   587 Mbits/sec   25             sender
+[  5]   0.00-10.04  sec   697 MBytes   582 Mbits/sec                  receiver
+
+iperf Done.
+Test 8
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 49546 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  55.0 MBytes   461 Mbits/sec   89    461 KBytes       
+[  5]   1.00-2.00   sec  69.7 MBytes   585 Mbits/sec    3    547 KBytes       
+[  5]   2.00-3.00   sec  70.1 MBytes   588 Mbits/sec    2    530 KBytes       
+[  5]   3.00-4.00   sec  68.1 MBytes   572 Mbits/sec    2    773 KBytes       
+[  5]   4.00-5.00   sec  68.1 MBytes   571 Mbits/sec    2    730 KBytes       
+[  5]   5.00-6.00   sec  66.5 MBytes   558 Mbits/sec    4    652 KBytes       
+[  5]   6.00-7.00   sec  66.4 MBytes   557 Mbits/sec    4    747 KBytes       
+[  5]   7.00-8.00   sec  66.4 MBytes   557 Mbits/sec    2    773 KBytes       
+[  5]   8.00-9.00   sec  63.8 MBytes   535 Mbits/sec    2    687 KBytes       
+[  5]   9.00-10.00  sec  63.8 MBytes   535 Mbits/sec    3    652 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   658 MBytes   552 Mbits/sec  113             sender
+[  5]   0.00-10.04  sec   655 MBytes   547 Mbits/sec                  receiver
+
+iperf Done.
+Test 9
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 58936 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  69.1 MBytes   579 Mbits/sec    8    452 KBytes       
+[  5]   1.00-2.00   sec  68.6 MBytes   575 Mbits/sec    1    643 KBytes       
+[  5]   2.00-3.00   sec  66.7 MBytes   560 Mbits/sec    1    817 KBytes       
+[  5]   3.00-4.00   sec  65.3 MBytes   548 Mbits/sec    1    939 KBytes       
+[  5]   4.00-5.00   sec  66.0 MBytes   554 Mbits/sec    2    999 KBytes       
+[  5]   5.00-6.00   sec  63.6 MBytes   534 Mbits/sec    2   1.01 MBytes       
+[  5]   6.00-7.00   sec  63.8 MBytes   535 Mbits/sec    3    791 KBytes       
+[  5]   7.00-8.00   sec  62.5 MBytes   524 Mbits/sec    2    660 KBytes       
+[  5]   8.00-9.00   sec  61.2 MBytes   514 Mbits/sec    2    521 KBytes       
+[  5]   9.00-10.00  sec  61.2 MBytes   514 Mbits/sec    2    461 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   648 MBytes   544 Mbits/sec   24             sender
+[  5]   0.00-10.05  sec   645 MBytes   538 Mbits/sec                  receiver
+
+iperf Done.
+Test 10
+drone1 to Ground (hping3 flood)
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.1.4 port 51878 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  67.4 MBytes   565 Mbits/sec    6    521 KBytes       
+[  5]   1.00-2.00   sec  65.2 MBytes   547 Mbits/sec    2    695 KBytes       
+[  5]   2.00-3.00   sec  64.7 MBytes   543 Mbits/sec   20    530 KBytes       
+[  5]   3.00-4.00   sec  62.3 MBytes   523 Mbits/sec    3    600 KBytes       
+[  5]   4.00-5.00   sec  62.4 MBytes   523 Mbits/sec    5    591 KBytes       
+[  5]   5.00-6.00   sec  62.6 MBytes   525 Mbits/sec    5    695 KBytes       
+[  5]   6.00-7.00   sec  59.7 MBytes   501 Mbits/sec    0   1.00 MBytes       
+[  5]   7.00-8.00   sec  60.0 MBytes   503 Mbits/sec    5    608 KBytes       
+[  5]   8.00-9.00   sec  58.8 MBytes   493 Mbits/sec    2    530 KBytes       
+[  5]   9.00-10.00  sec  57.5 MBytes   482 Mbits/sec    2    469 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   620 MBytes   521 Mbits/sec   50             sender
+[  5]   0.00-10.05  sec   618 MBytes   516 Mbits/sec                  receiver
+
+iperf Done.
