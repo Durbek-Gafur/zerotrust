@@ -1,0 +1,49 @@
+Test results:
+Test 1
+drone4 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.3.4 port 55866 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   115 MBytes   966 Mbits/sec   11    478 KBytes       
+[  5]   1.00-2.00   sec   113 MBytes   952 Mbits/sec    8    547 KBytes       
+[  5]   2.00-3.00   sec   119 MBytes   997 Mbits/sec    7    487 KBytes       
+[  5]   3.00-4.00   sec   118 MBytes   992 Mbits/sec    8    617 KBytes       
+[  5]   4.00-5.00   sec   116 MBytes   974 Mbits/sec   10    521 KBytes       
+[  5]   5.00-6.00   sec  83.5 MBytes   700 Mbits/sec    6    886 KBytes       
+[  5]   6.00-7.00   sec  88.4 MBytes   741 Mbits/sec    0   1.25 MBytes       
+[  5]   7.00-8.00   sec  96.2 MBytes   806 Mbits/sec    7   1.23 MBytes       
+[  5]   8.00-9.00   sec  96.2 MBytes   809 Mbits/sec   29    930 KBytes       
+[  5]   9.00-10.00  sec  92.5 MBytes   775 Mbits/sec    0   1.29 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  1.01 GBytes   871 Mbits/sec   86             sender
+[  5]   0.00-10.04  sec  1.01 GBytes   865 Mbits/sec                  receiver
+
+iperf Done.
+Test 2
+drone4 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+Connecting to host 10.42.4.5, port 5201
+[  5] local 10.42.3.4 port 37108 connected to 10.42.4.5 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec   104 MBytes   873 Mbits/sec   22    687 KBytes       
+[  5]   1.00-2.01   sec  78.8 MBytes   658 Mbits/sec   25    652 KBytes       
+[  5]   2.01-3.01   sec  62.5 MBytes   524 Mbits/sec    7    791 KBytes       
+[  5]   3.01-4.00   sec  81.2 MBytes   682 Mbits/sec    5    765 KBytes       
+[  5]   4.00-5.00   sec   108 MBytes   906 Mbits/sec   28    495 KBytes       
+[  5]   5.00-6.00   sec  96.2 MBytes   804 Mbits/sec    4    852 KBytes       
+[  5]   6.00-7.00   sec  82.5 MBytes   695 Mbits/sec   26    739 KBytes       
+[  5]   7.00-8.00   sec  91.2 MBytes   762 Mbits/sec   15    800 KBytes       
+[  5]   8.00-9.00   sec   101 MBytes   852 Mbits/sec   16    513 KBytes       
+[  5]   9.00-10.00  sec   102 MBytes   859 Mbits/sec    8    739 KBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   908 MBytes   762 Mbits/sec  156             sender
+[  5]   0.00-10.01  sec   906 MBytes   759 Mbits/sec                  receiver
+
+iperf Done.
+Test 3
+drone4 to Ground
+Unable to use a TTY - input is not a terminal or the right kind of file
+error: unable to upgrade connection: error dialing backend: dial tcp 127.0.0.1:10010: connect: connection timed out
