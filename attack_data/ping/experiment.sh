@@ -2,8 +2,8 @@
 
 OUTPUT_FILE="ping_test_results.txt"
 REMOTE_OUTPUT_FILE="/tmp/ping_test_results.txt"
-NETWORK_POLICY_DIR="~/zerotrust/yaml/policy-extended"
-
+NETWORK_POLICY_DIR="~/zerotrust/yaml/policy-extended.yaml"
+                    #~/zerotrust/yaml/policy-extended.yaml
 function run_test() {
   # Remove the output file if it exists locally
   if [ -f "$OUTPUT_FILE" ]; then
@@ -36,19 +36,20 @@ function run_test() {
 RECEIVER_IP=$(kubectl get pod drone1 -o jsonpath='{.status.podIP}')
 
 # Remove network policies
-kubectl delete -f "$NETWORK_POLICY_DIR"
+#kubectl delete networkpolicy --all
 
 # Run tests without network policies
-echo "Running tests without network policies"
-run_test
-mv "$OUTPUT_FILE" "ping_test_results_without_policies.txt"
 
-# Apply network policies
-kubectl apply -f "$NETWORK_POLICY_DIR"
 
 # Run tests with network policies
 echo "Running tests with network policies"
 run_test
 mv "$OUTPUT_FILE" "ping_test_results_with_policies.txt"
 
+# Remove network policies
+kubectl delete networkpolicy --all
 
+# Run tests without network policies
+echo "Running tests without network policies"
+run_test
+mv "$OUTPUT_FILE" "ping_test_results_without_policies.txt"

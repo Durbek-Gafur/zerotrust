@@ -1,0 +1,149 @@
+Test 1
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=6.793 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=14.085 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=9.454 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=6.975 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=6.576 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=5.046 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=7.668 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=7.154 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=8.369 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=9.026 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 5.046/8.115/14.085/2.330 ms
+Test 2
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=2.844 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=6.057 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=5.740 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=5.116 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=8.001 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=5.749 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=7.631 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=5.532 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=4.645 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 9 packets received, 10% packet loss
+round-trip min/avg/max/stddev = 2.844/5.702/8.001/1.445 ms
+Test 3
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=5.112 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=8.338 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=11.897 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=6.855 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=8.811 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=5.419 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=4.459 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=3.455 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=5.015 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=6.506 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 3.455/6.587/11.897/2.380 ms
+Test 4
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=2.438 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=4.010 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=5.582 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=6.999 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=4.618 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=6.004 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=1.558 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=6.863 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=5.861 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=4.880 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 1.558/4.881/6.999/1.702 ms
+Test 5
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=2.625 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=2.066 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=5.301 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=7.138 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=6.232 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=4.899 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=4.891 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=6.725 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=5.996 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=7.640 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 2.066/5.351/7.640/1.736 ms
+Test 6
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=0.783 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=5.274 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=10.650 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=10.902 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=5.876 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=7.456 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=2.084 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=8.486 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=4.068 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=4.968 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 0.783/6.055/10.902/3.191 ms
+Test 7
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=4.271 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=6.433 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=3.154 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=8.749 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=16.357 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=3.636 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=5.640 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=3.932 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=0.519 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=6.639 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 0.519/5.933/16.357/4.080 ms
+Test 8
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=2.701 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=7.221 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=7.507 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=4.549 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=8.287 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=7.246 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=9.956 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=8.471 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=8.223 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=9.155 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 2.701/7.332/9.956/2.060 ms
+Test 9
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=6.747 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=6.595 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=3.802 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=9.378 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=7.862 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=9.146 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=8.104 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=6.754 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=6.000 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=4.662 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 3.802/6.905/9.378/1.706 ms
+Test 10
+PING 10.42.1.4 (10.42.1.4): 56 data bytes
+64 bytes from 10.42.1.4: icmp_seq=0 ttl=62 time=2.524 ms
+64 bytes from 10.42.1.4: icmp_seq=1 ttl=62 time=6.904 ms
+64 bytes from 10.42.1.4: icmp_seq=2 ttl=62 time=7.774 ms
+64 bytes from 10.42.1.4: icmp_seq=3 ttl=62 time=15.248 ms
+64 bytes from 10.42.1.4: icmp_seq=4 ttl=62 time=0.888 ms
+64 bytes from 10.42.1.4: icmp_seq=5 ttl=62 time=7.582 ms
+64 bytes from 10.42.1.4: icmp_seq=6 ttl=62 time=11.555 ms
+64 bytes from 10.42.1.4: icmp_seq=7 ttl=62 time=5.813 ms
+64 bytes from 10.42.1.4: icmp_seq=8 ttl=62 time=6.827 ms
+64 bytes from 10.42.1.4: icmp_seq=9 ttl=62 time=7.208 ms
+--- 10.42.1.4 ping statistics ---
+10 packets transmitted, 10 packets received, 0% packet loss
+round-trip min/avg/max/stddev = 0.888/7.232/15.248/3.848 ms
